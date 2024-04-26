@@ -1,12 +1,9 @@
 <script setup>
-
+import LogParser from './components/LogParser.vue'
 </script>
 
 <template>
-  <div>
-    <div></div>
-    <div></div>
-  </div>
+  <LogParser></LogParser>
 </template>
 
 <style scoped></style>

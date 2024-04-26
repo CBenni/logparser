@@ -10,6 +10,9 @@ export default defineConfig({
     vue(),
     VueDevTools(),
   ],
+  chokidarWatchOptions: {
+    usePolling: false
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
